@@ -42,6 +42,7 @@ export default class Header extends React.Component {
             				<Icon {...this.props} icon={'menu'} />
             				<span className="sr-only">Menu</span>
             			</button>
+						<button style={{padding: ".3em 1em", marginLeft: "1em"}}>Sign In</button>
             			</React.Fragment>)}
             		</nav>
             	</div>
